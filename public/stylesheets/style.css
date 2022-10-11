@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar > * {
+  border: #00b7ff solid 2px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+form > * {
+  display: flex;
+  flex-direction: column;
+}
